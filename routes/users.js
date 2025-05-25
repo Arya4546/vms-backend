@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
-const Visitor = require('../models/Visitor'); // Import Visitor model for dependency check
+const Visitor = require('../models/visitor'); // Import Visitor model for dependency check
 const authMiddleware = require('../middleware/auth');
 
 // Get all users (admin) or receptionists (company)
