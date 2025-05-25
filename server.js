@@ -7,7 +7,7 @@ const userRoutes = require('./routes/users');
 const visitorRoutes = require('./routes/visitors');
 const accessControlRoutes = require('./routes/access-control');
 const analyticsRoutes = require('./routes/analytics');
-const settingsRoutes = require('./routes/settings');
+const settingsRoutes = require('./routes/Settings');
 
 dotenv.config();
 
